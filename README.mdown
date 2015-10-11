@@ -11,6 +11,10 @@ In HoudahSpot the BSMultipleDocumentsWindowController is paired with a [MMTabBar
 The seed for this project comes from a blog post by Sasmito Adibowo: [One NSWindow handling multiple NSDocument instances](http://cutecoder.org/programming/window-multiple-documents/).
 
 
+![Screenshot of sample application](./Screenshot.jpg)
+
+
+
 ## Overview
 
 - Document subclasses override makeWindowControllers to post a notification rather than create a window for the document
