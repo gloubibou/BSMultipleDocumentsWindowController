@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F1BC5641BC9752100B648DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC5631BC9752100B648DE /* AppDelegate.m */; };
+		8F1BC5671BC9752700B648DE /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC5661BC9752700B648DE /* Document.m */; };
+		8F1BC56B1BC9752B00B648DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC5691BC9752B00B648DE /* main.m */; };
+		8F1BC56D1BC9752F00B648DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1BC56C1BC9752F00B648DE /* Images.xcassets */; };
+		8F1BC5731BC9753200B648DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1BC5701BC9753200B648DE /* MainMenu.xib */; };
+		8F1BC57E1BC9758C00B648DE /* BSDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC5751BC9758C00B648DE /* BSDocument.m */; };
+		8F1BC57F1BC9758C00B648DE /* BSDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC5771BC9758C00B648DE /* BSDocumentController.m */; };
+		8F1BC5801BC9758C00B648DE /* BSMultipleDocumentsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC5791BC9758C00B648DE /* BSMultipleDocumentsWindow.m */; };
+		8F1BC5811BC9758C00B648DE /* BSMultipleDocumentsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC57B1BC9758C00B648DE /* BSMultipleDocumentsWindowController.m */; };
+		8F1BC5821BC9758C00B648DE /* BSPersistentDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC57D1BC9758C00B648DE /* BSPersistentDocument.m */; };
+		8F1BC5871BC97E1F00B648DE /* DocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC5851BC97E1F00B648DE /* DocumentViewController.m */; };
+		8F1BC5881BC97E1F00B648DE /* DocumentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1BC5861BC97E1F00B648DE /* DocumentViewController.xib */; };
+		8F1BC58C1BC980AF00B648DE /* MultipleDocumentsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC58A1BC980AF00B648DE /* MultipleDocumentsWindowController.m */; };
+		8F1BC58D1BC980AF00B648DE /* MultipleDocumentsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1BC58B1BC980AF00B648DE /* MultipleDocumentsWindowController.xib */; };
+		8F1BC5911BC987E800B648DE /* DocumentsContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BC58F1BC987E800B648DE /* DocumentsContainerViewController.m */; };
+		8F1BC5921BC987E800B648DE /* DocumentsContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1BC5901BC987E800B648DE /* DocumentsContainerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F1BC5371BC9748700B648DE /* BSMultipleDocumentsWindowController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSMultipleDocumentsWindowController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1BC5621BC9752100B648DE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F1BC5631BC9752100B648DE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F1BC5651BC9752700B648DE /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		8F1BC5661BC9752700B648DE /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		8F1BC5681BC9752B00B648DE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1BC5691BC9752B00B648DE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F1BC56C1BC9752F00B648DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F1BC5711BC9753200B648DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8F1BC5741BC9758C00B648DE /* BSDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDocument.h; sourceTree = "<group>"; };
+		8F1BC5751BC9758C00B648DE /* BSDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDocument.m; sourceTree = "<group>"; };
+		8F1BC5761BC9758C00B648DE /* BSDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDocumentController.h; sourceTree = "<group>"; };
+		8F1BC5771BC9758C00B648DE /* BSDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDocumentController.m; sourceTree = "<group>"; };
+		8F1BC5781BC9758C00B648DE /* BSMultipleDocumentsWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMultipleDocumentsWindow.h; sourceTree = "<group>"; };
+		8F1BC5791BC9758C00B648DE /* BSMultipleDocumentsWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMultipleDocumentsWindow.m; sourceTree = "<group>"; };
+		8F1BC57A1BC9758C00B648DE /* BSMultipleDocumentsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMultipleDocumentsWindowController.h; sourceTree = "<group>"; };
+		8F1BC57B1BC9758C00B648DE /* BSMultipleDocumentsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMultipleDocumentsWindowController.m; sourceTree = "<group>"; };
+		8F1BC57C1BC9758C00B648DE /* BSPersistentDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPersistentDocument.h; sourceTree = "<group>"; };
+		8F1BC57D1BC9758C00B648DE /* BSPersistentDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPersistentDocument.m; sourceTree = "<group>"; };
+		8F1BC5831BC976BB00B648DE /* README.mdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		8F1BC5841BC97E1F00B648DE /* DocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentViewController.h; sourceTree = "<group>"; };
+		8F1BC5851BC97E1F00B648DE /* DocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentViewController.m; sourceTree = "<group>"; };
+		8F1BC5861BC97E1F00B648DE /* DocumentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocumentViewController.xib; sourceTree = "<group>"; };
+		8F1BC5891BC980AF00B648DE /* MultipleDocumentsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleDocumentsWindowController.h; sourceTree = "<group>"; };
+		8F1BC58A1BC980AF00B648DE /* MultipleDocumentsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleDocumentsWindowController.m; sourceTree = "<group>"; };
+		8F1BC58B1BC980AF00B648DE /* MultipleDocumentsWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleDocumentsWindowController.xib; sourceTree = "<group>"; };
+		8F1BC58E1BC987E800B648DE /* DocumentsContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentsContainerViewController.h; sourceTree = "<group>"; };
+		8F1BC58F1BC987E800B648DE /* DocumentsContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentsContainerViewController.m; sourceTree = "<group>"; };
+		8F1BC5901BC987E800B648DE /* DocumentsContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocumentsContainerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F1BC5341BC9748700B648DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F1BC52E1BC9748700B648DE = {
+			isa = PBXGroup;
+			children = (
+				8F1BC5831BC976BB00B648DE /* README.mdown */,
+				8F1BC5601BC974BB00B648DE /* Sample Application */,
+				8F1BC5391BC9748700B648DE /* BSMultipleDocumentsWindowController */,
+				8F1BC5381BC9748700B648DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F1BC5381BC9748700B648DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F1BC5371BC9748700B648DE /* BSMultipleDocumentsWindowController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F1BC5391BC9748700B648DE /* BSMultipleDocumentsWindowController */ = {
+			isa = PBXGroup;
+			children = (
+				8F1BC5741BC9758C00B648DE /* BSDocument.h */,
+				8F1BC5751BC9758C00B648DE /* BSDocument.m */,
+				8F1BC5761BC9758C00B648DE /* BSDocumentController.h */,
+				8F1BC5771BC9758C00B648DE /* BSDocumentController.m */,
+				8F1BC5781BC9758C00B648DE /* BSMultipleDocumentsWindow.h */,
+				8F1BC5791BC9758C00B648DE /* BSMultipleDocumentsWindow.m */,
+				8F1BC57A1BC9758C00B648DE /* BSMultipleDocumentsWindowController.h */,
+				8F1BC57B1BC9758C00B648DE /* BSMultipleDocumentsWindowController.m */,
+				8F1BC57C1BC9758C00B648DE /* BSPersistentDocument.h */,
+				8F1BC57D1BC9758C00B648DE /* BSPersistentDocument.m */,
+			);
+			path = BSMultipleDocumentsWindowController;
+			sourceTree = "<group>";
+		};
+		8F1BC5601BC974BB00B648DE /* Sample Application */ = {
+			isa = PBXGroup;
+			children = (
+				8F1BC5621BC9752100B648DE /* AppDelegate.h */,
+				8F1BC5631BC9752100B648DE /* AppDelegate.m */,
+				8F1BC5651BC9752700B648DE /* Document.h */,
+				8F1BC5661BC9752700B648DE /* Document.m */,
+				8F1BC58E1BC987E800B648DE /* DocumentsContainerViewController.h */,
+				8F1BC58F1BC987E800B648DE /* DocumentsContainerViewController.m */,
+				8F1BC5901BC987E800B648DE /* DocumentsContainerViewController.xib */,
+				8F1BC5841BC97E1F00B648DE /* DocumentViewController.h */,
+				8F1BC5851BC97E1F00B648DE /* DocumentViewController.m */,
+				8F1BC5861BC97E1F00B648DE /* DocumentViewController.xib */,
+				8F1BC56C1BC9752F00B648DE /* Images.xcassets */,
+				8F1BC5701BC9753200B648DE /* MainMenu.xib */,
+				8F1BC5891BC980AF00B648DE /* MultipleDocumentsWindowController.h */,
+				8F1BC58A1BC980AF00B648DE /* MultipleDocumentsWindowController.m */,
+				8F1BC58B1BC980AF00B648DE /* MultipleDocumentsWindowController.xib */,
+				8F1BC5611BC9750C00B648DE /* Supporting Files */,
+			);
+			path = "Sample Application";
+			sourceTree = "<group>";
+		};
+		8F1BC5611BC9750C00B648DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F1BC5681BC9752B00B648DE /* Info.plist */,
+				8F1BC5691BC9752B00B648DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F1BC5361BC9748700B648DE /* BSMultipleDocumentsWindowController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1BC55A1BC9748700B648DE /* Build configuration list for PBXNativeTarget "BSMultipleDocumentsWindowController" */;
+			buildPhases = (
+				8F1BC5331BC9748700B648DE /* Sources */,
+				8F1BC5341BC9748700B648DE /* Frameworks */,
+				8F1BC5351BC9748700B648DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSMultipleDocumentsWindowController;
+			productName = BSMultipleDocumentsWindowController;
+			productReference = 8F1BC5371BC9748700B648DE /* BSMultipleDocumentsWindowController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F1BC52F1BC9748700B648DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Houdah Software s.à r.l.";
+				TargetAttributes = {
+					8F1BC5361BC9748700B648DE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 8F1BC5321BC9748700B648DE /* Build configuration list for PBXProject "BSMultipleDocumentsWindowController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F1BC52E1BC9748700B648DE;
+			productRefGroup = 8F1BC5381BC9748700B648DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F1BC5361BC9748700B648DE /* BSMultipleDocumentsWindowController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F1BC5351BC9748700B648DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1BC58D1BC980AF00B648DE /* MultipleDocumentsWindowController.xib in Resources */,
+				8F1BC56D1BC9752F00B648DE /* Images.xcassets in Resources */,
+				8F1BC5921BC987E800B648DE /* DocumentsContainerViewController.xib in Resources */,
+				8F1BC5731BC9753200B648DE /* MainMenu.xib in Resources */,
+				8F1BC5881BC97E1F00B648DE /* DocumentViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F1BC5331BC9748700B648DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1BC5671BC9752700B648DE /* Document.m in Sources */,
+				8F1BC5801BC9758C00B648DE /* BSMultipleDocumentsWindow.m in Sources */,
+				8F1BC5911BC987E800B648DE /* DocumentsContainerViewController.m in Sources */,
+				8F1BC5811BC9758C00B648DE /* BSMultipleDocumentsWindowController.m in Sources */,
+				8F1BC57F1BC9758C00B648DE /* BSDocumentController.m in Sources */,
+				8F1BC5871BC97E1F00B648DE /* DocumentViewController.m in Sources */,
+				8F1BC56B1BC9752B00B648DE /* main.m in Sources */,
+				8F1BC5641BC9752100B648DE /* AppDelegate.m in Sources */,
+				8F1BC5821BC9758C00B648DE /* BSPersistentDocument.m in Sources */,
+				8F1BC58C1BC980AF00B648DE /* MultipleDocumentsWindowController.m in Sources */,
+				8F1BC57E1BC9758C00B648DE /* BSDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F1BC5701BC9753200B648DE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F1BC5711BC9753200B648DE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F1BC5581BC9748700B648DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8F1BC5591BC9748700B648DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8F1BC55B1BC9748700B648DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Sample Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F1BC55C1BC9748700B648DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Sample Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F1BC5321BC9748700B648DE /* Build configuration list for PBXProject "BSMultipleDocumentsWindowController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1BC5581BC9748700B648DE /* Debug */,
+				8F1BC5591BC9748700B648DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1BC55A1BC9748700B648DE /* Build configuration list for PBXNativeTarget "BSMultipleDocumentsWindowController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1BC55B1BC9748700B648DE /* Debug */,
+				8F1BC55C1BC9748700B648DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F1BC52F1BC9748700B648DE /* Project object */;
+}

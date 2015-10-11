@@ -1,0 +1,50 @@
+## BSMultipleDocumentsWindowController
+
+When you look into AppKit’s document architecture, you’ll see that although a document may be represented with more than one windows, the inverse is not true. There is only a setDocument: method in NSWindowController which implies that a window can only handle one document.
+
+BSMultipleDocumentsWindowController extends the document architecture to allow for one window to represent multiple documents. This allows for tabbed window interface. A window can now hold one or more tabs. Each showing a document. Closing a document removes the tab. Closing the window closes all documents.
+
+This code was developped for [HoudahSpot 4.0](https://www.houdah.com/houdahSpot/). HoudahSpot is a file search tool that is built upon Spotlight. It uses the Core Data document architecture to manage multiple windows and persist searches. HoudahSpot 4.0 added tabbed windows.
+
+In HoudahSpot the BSMultipleDocumentsWindowController is paired with a [MMTabBarView](https://github.com/ajin/MMTabBarView.git). This implements a tab bar that closely matches the ones seen in Finder, Safari, or Xcode.
+
+The seed for this project comes from a blog post by Sasmito Adibowo: [One NSWindow handling multiple NSDocument instances](http://cutecoder.org/programming/window-multiple-documents/).
+
+
+## Overview
+
+- Document subclasses override makeWindowControllers to post a notification rather than create a window for the document
+- Document subclasses implement makeViewController to provide a view rather than a window
+- A notification handler takes care of creating the window to host document views
+- BSMultipleDocumentsWindowController manages the list of documents and document view controllers
+- BSMultipleDocumentsWindowController tracks the selected document
+- NSWindowController is attached to the selected document and shows title, dirty state, etc.
+- BSMultipleDocumentsWindow makes sure that the Close menu item closes a single tab and that the Close button closes all tabs
+- BSMultipleDocumentsWindowController checks documents for changes before closing tabs
+
+
+## Installation
+
+Follow the lead of the sample application.
+
+1. Copy the BS*.h and BS*.m files to your project
+2. Make your document class a subclass of either BSDocument or BSPersistentDocument
+3. Create a view controller conforming to the BSDocumentViewController protocol
+4. Make your document class conform to the BSMultipleDocumentsDocument protocol
+5. Make your window controller a subclass of BSMultipleDocumentsWindowController
+6. Make your window an instance of BSMultipleDocumentsWindow
+7. Override -[NSDocument makeWindowController] to post a BSDocumentNeedsWindowNotificationName notification
+9. Instanatiate BSDocumentController in the application's main nib or in your application delegate's applicationWillFinishLaunching: method
+9. Handle BSDocumentNeedsWindowNotificationName in your application delegate
+10. Set up menu items for creating and closing windows and tabs
+11. Provide UI to host the document view controllers. The sample application uses a NSTabView managed by a DocumentsContainerViewController
+
+
+## License
+
+Copyright (c) 2012 Sasmito Adibowo. [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/us/).
+Copyright (c) 2014-2015 Houdah Software s.à r.l. [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/us/).
+
+
+
+
