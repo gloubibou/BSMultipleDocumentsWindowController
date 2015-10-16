@@ -47,6 +47,7 @@ extern const struct BSMultipleDocumentsWindowControllerAttributes {
 - (IBAction)selectNextTab:(id)sender;
 - (IBAction)selectPreviousTab:(id)sender;
 
+// API used for rearranging tabs. Documents are not closed in the process
 - (void)moveDocumentAtIndex:(NSUInteger)fromIndex toIndex:(NSUInteger)toIndex;
 - (void)removeDocumentAtIndex:(NSUInteger)index;
 

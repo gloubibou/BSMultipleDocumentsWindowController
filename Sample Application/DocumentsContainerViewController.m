@@ -11,15 +11,16 @@
 
 @interface DocumentsContainerViewController ()
 
-@property (nonatomic, weak) IBOutlet NSTabView	*tabView;
+@property (nonatomic, weak) IBOutlet NSTabView					*tabView;
 
-@property (nonatomic, assign) BOOL				observingDocumentsWindowController;
+@property (nonatomic, assign) BOOL								observingDocumentsWindowController;
+@property (nonatomic, strong) MultipleDocumentsWindowController *documentsWindowController;
 
 @end
 
 
-static void										*kDocumentViewControllersContext		= &kDocumentViewControllersContext;
-static void										*kSelectedDocumentViewControllerContext = &kSelectedDocumentViewControllerContext;
+static void														*kDocumentViewControllersContext		= &kDocumentViewControllersContext;
+static void														*kSelectedDocumentViewControllerContext = &kSelectedDocumentViewControllerContext;
 
 
 @implementation DocumentsContainerViewController
@@ -65,7 +66,8 @@ static void										*kSelectedDocumentViewControllerContext = &kSelectedDocumen
 
 	[self stopObservingDocumentsWindowController];
 
-	self.tabView.delegate = nil;
+	self.documentsWindowController	= nil;
+	self.tabView.delegate			= nil;
 }
 
 - (void)dealloc

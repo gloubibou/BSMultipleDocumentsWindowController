@@ -129,6 +129,8 @@ const struct BSMultipleDocumentsWindowControllerAttributes BSMultipleDocumentsWi
 
 		if (documentViewController.document == document) {
 			[self removeDocumentAtIndex:index];
+
+			documentViewController.document = nil;
 		}
 	}
 }
@@ -205,7 +207,6 @@ const struct BSMultipleDocumentsWindowControllerAttributes BSMultipleDocumentsWi
 
     self.documentViewControllers = documentViewControllers;
 
-	documentViewController.document = nil;
 	documentViewController.multipleDocumentsWindowController = nil;
 
     if ([documentViewControllers count] == 0) {
